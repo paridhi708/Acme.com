@@ -58,6 +58,7 @@ input[type="email"]{
 	padding: 5px;
 	font-size:17px;
 	width: 188px;
+	cursor: pointer;
 	
 }
 form{
@@ -74,6 +75,7 @@ form{
 	height:35px;
 	color: #ffffff;
 	margin-left: 5px;
+	cursor: pointer;
 }
 
 nav ul li{
@@ -118,10 +120,9 @@ display:inline-block;
 }
 .box{
 	float:left;
-	width: 30%;	
-	padding: 10px;
+	width: 29%;	
 	text-align: center;
-	margin: 10px 20px 10px 	10px;
+	margin: 2%;
 }
 
 .box img{
@@ -152,12 +153,13 @@ article#about-us{
  aside#sidebar{
 	 width: 30%;
 	float: right;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .dark-bg{
 	background-color: #354235;
 	color: #ffffff;
-	margin-top: 10px;
 	padding: 15px;
 }
 
@@ -174,6 +176,10 @@ article#about-us{
 #services li{
 	margin-bottom:10px;
 	list-style: none;
+}
+
+.mt-0{
+	margin-top: 0 !important;
 }
 
 
